@@ -45,37 +45,13 @@ Some of the key benefits of using a scheduling and time-tracking application for
 Overall, the purpose of a scheduling and time-tracking application for remote teams is to help teams work efficiently, collaborate effectively, and achieve their goals. By using such an application, remote teams can overcome the challenges of distance and work together as if they were in the same office.
 
 
-## 1.2 Document Conventions**
-
-
-
-
-
-
-
-## 1.3 Intended audience and reading suggestions 
+## 1.3 Intended audience  
 
 The intended audience for a scheduling and time-tracking application for remote teams includes managers, team leaders, and team members who work remotely or in a distributed team setting. 
 
 For managers and team leaders, they may be interested in learning about how such an application can help them manage their team more effectively, improve productivity, and ensure that projects are completed on time and within budget. They may also be interested in learning about the specific features and functions of such an application, as well as best practices for implementing it within their organization.
 
 For team members, they may be interested in learning how such an application can help them manage their time, prioritize their work, and collaborate more effectively with their colleagues. They may also be interested in learning about how the application can help them communicate with their team members, track their progress, and achieve their goals.
-
-Some suggested readings for those interested in learning more about scheduling and time-tracking applications for remote teams include:
-
-- "**Remote: Office Not Required**" by Jason Fried and David Heine Meier Hansson. This book provides insights and advice for managing remote teams and covers topics such as communication, productivity, and work-life balance.
-
-- "**The Lean Product Playbook**" by Dan Olsen. This book provides a framework for developing successful products, including scheduling and time-tracking applications, and covers topics such as user research, product development, and product management.
-
-- "**Remote Work: The Ultimate Guide to Work from Anywhere**" by Hank Coleman. This guide provides practical tips and advice for working remotely, including how to manage your time, stay productive, and communicate effectively with your team.
-
-- "**The Ultimate Guide to Remote Work**" by Zapier. This guide provides a comprehensive overview of remote work, including tips and best practices for managing remote teams, setting up a remote workspace, and using remote work tools.
-
-- "**The Four Hour Work Week**" by Tim Ferriss. This book provides insights and advice for achieving a more flexible and productive work schedule, including tips for managing your time, delegating tasks, and using technology to work more efficiently.
-
-
-
-
 
 
 ## 1.4 Project Scope
@@ -189,27 +165,29 @@ Overall, this ER diagram provides a visual representation of the entities and th
 
 
 
-## 2.5 Design and Implementation Constrains
+## 2.5 Implementation Constrains
 
-When designing and implementing the “Scheduling and Time-Tracking Application for Remote Teams” software , there are several constraints that we the developers need to consider, such as,
+When implementing Scheduling and Time-Tracking Application for Remote Teams certain implementation constrains should be considered:
 
-**User Interface Constraints:** The app needs to be designed in a way that is intuitive and easy to use. Having a large database of users who might not be too technically knowledgeable, should be able to navigate the app easily and find the features they need quickly. Due to the large demographics of the users, it is made accessible by people of all ages with the help of easily recognizable icons and navigational features.
+1\.	Security: Since the application deals with sensitive information such as employee schedules and time-tracking data, it is important to ensure that the application is secure. This can be achieved by implementing secure authentication and authorization mechanisms, data encryption, and regular data audits.
 
-**Language Constraints:** The application supports be able to support a wide range of languages. Developers need to ensure that the app can handle different language scripts, alphabets, and characters, and the UI can accommodate the different languages on different screens sizes.
+2\.	Compatibility: The application should be compatible with wide range of devices and operating systems to ensure all the team members are able to access it.
 
-**Platform Constraints:** Duolingo is a mobile app and a web application that runs on both iOS and Android devices and windows operating system. It needs to run smoothly on all platforms and be easily downloadable and available of different systems.
+3\.	User-friendly interface: The application should have a user-friendly interface that is easy to navigate and understand. This is particularly important for remote teams that may have team members with varying levels of technical expertise.
 
-**Network Constraints:** Duolingo requires an internet connection to function. The application should be optimized enough to work well even in areas with poor or fluctuating connectivity without losing user progress.
+4\.	Integration: The application should be able to integrate with other tools that remote teams commonly use, such as project management software, video conferencing tools, and messaging platforms.
 
-**Storage Constraints:** Duolingo contains a large amount of data, including text, images, and audio files. Developers need to ensure that the app is designed to minimize storage usage on users' devices.
+5\.	Scalability: The application should be scalable to accommodate the growing needs of remote teams as they expand and hire more team members.
+	
+6\.	Reliability: The application should be reliable and available at all times, since remote teams may be working across different time zones and need to access the application at different times.
 
-Security Constrains: Duolingo provides social features, it should be able to guarantee the safety of all the users there are many underage users present too. It must be able to protect all the user data and progress for all its users.
+7\.	Data Backup: The application should have a data backup system in place to prevent the loss of important scheduling and time-tracking data in case of system failures or other unforeseen events.
 
-## 2.6 User Documentation
+8\.	Compliance: The application should comply with relevant labor laws and regulations, such as those related to minimum wage, overtime pay, and working hours.
 
 
 
-## 2.7 Assumptions and Dependencies
+## 2.6 Assumptions and Dependencies
 
 The development team assumes the following dependencies:
 
