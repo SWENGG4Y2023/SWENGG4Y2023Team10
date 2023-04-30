@@ -167,7 +167,26 @@ Some characteristics of users of a scheduling and time-tracking application for 
 
 The application should be designed to meet the needs of each user class, with features and functions that are tailored to their specific roles and responsibilities.
 
-## 2.4 Operating Environment
+## 2.4 System Design
+
+**ER Diagram:**
+In this ER diagram, we have five entities: Employee, Team, Timesheet, Schedule, Task, and TaskAssignee, and Project.
+
+• Employee entity represents employees with attributes like emp_id, name, and email.
+
+• Team entity represents teams with attributes like team_id and name.
+
+• Timesheet entity represents the hours an employee worked on a specific date with attributes like timesheet_id, date, hours_worked, and emp_id as a foreign key to the Employee entity.
+
+• Schedule entity represents the scheduled shift for an employee on a specific date with attributes like schedule_id, date, start_time, end_time, and emp_id as a foreign key to the Employee entity.
+
+• Task entity represents the tasks that need to be completed with attributes like task_id and name.
+
+• TaskAssignee entity represents the assignments of tasks to employees with attributes like assignee_id, task_id as a foreign key to the Task entity, and emp_id as a foreign key to the Employee entity.
+
+• Project entity represents projects with attributes like project_id, name, and team_id as a foreign key to the Team entity.
+Overall, this ER diagram provides a visual representation of the entities and their relationships in the scheduling and time-tracking application for remote teams.
+
 
 
 ## 2.5 Design and Implementation Constrains
