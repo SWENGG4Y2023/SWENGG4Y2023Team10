@@ -1,4 +1,4 @@
-# StakeHolders
+# Stakeholders
 
 ## Direct Stakeholders
 
