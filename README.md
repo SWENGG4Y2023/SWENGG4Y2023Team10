@@ -4,3 +4,5 @@
 2. Deev Pal       ( 2021hs70025 )
 4. Aryan Saxena   ( 2021hs70016 )
 5. Yash Kanoria   ( 2021hs70002 )
+
+![image](/ERDiagram.png)
