@@ -9,6 +9,9 @@
 | :man: Aryan Saxena     | 2021hs70016 |
 | :man: Yash Kanoria     | 2021hs70002 |
 
+
+<img  alt="TeamSync" src="https://teamsync.church/mt-content/uploads/2022/01/teamsync-logo-white.png">
+
 ## Project Documents :clipboard::
 
 - [SRS Document](/Assignment/SRS%20Document.md)
