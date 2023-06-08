@@ -2,10 +2,10 @@
 # Scheduling and Time-Tracking Application for Remote Teams
 
 ## Team Members:
-1. Shravya Shreya (2021hs70011)
-2. Deev Pal (2021hs70025)
-3. Aryan Saxena (2021hs70016)
-4. Yash Kanoria (2021hs70002)
+1. :woman: Shravya Shreya (2021hs70011)
+2. :man: Deev Pal (2021hs70025)
+3. :man: Aryan Saxena (2021hs70016)
+4. :man: Yash Kanoria (2021hs70002)
 
 ## Project Documents:
 - [SRS Document](/Assignment/SRS%20Document.md)
