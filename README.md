@@ -21,7 +21,7 @@ Welcome to our Scheduling and Time-Tracking Application for Remote Teams project
 
 Feel free to explore the project documents linked above to gain more insights into our project.
 
-## Contributing :octocat::
+## Contributing   :octocat::
 
 If you would like to contribute to our project, please follow the guidelines below:
 - Fork the repository and clone it to your local machine.
@@ -31,8 +31,8 @@ If you would like to contribute to our project, please follow the guidelines bel
 - Push your branch to your forked repository.
 - Open a pull request, explaining your changes and why they should be merged.
 
-## License :page_with_curl::
+## License   :page_with_curl::
 Include information about the license for your project. Specify the license type and provide any necessary disclaimers or restrictions.
 
-## Contact :email::
+## Contact   :email::
 If you have any questions, suggestions, or feedback, feel free to contact any of our team members listed above.
