@@ -102,7 +102,7 @@
 
 #### Scenario: Creating and Editing a Schedule
 
-Test Case: Create a New Schedule
+# Test Case: Create a New Schedule
 
 Test Case ID: ST-001
 
@@ -141,7 +141,7 @@ This test case represents a common scenario where a user creates a new schedule 
 
 ##### Scenario: Time Entry and Approval
 
-Test Case: Submitting and Approving Time Entries
+# Test Case: Submitting and Approving Time Entries
 
 Test Case ID: ST-002
 
@@ -188,7 +188,7 @@ This test case focuses on the functionality of submitting and approving time ent
 
 ### Test Case: Editing an Existing Schedule
 
-Test Case ID: ST-003
+# Test Case ID: ST-003
 
 Description: This test case verifies the functionality of editing an existing schedule in the application.
 Preconditions:
@@ -215,7 +215,7 @@ Priority: High
 # Test Case: Generating Time Tracking Reports
 
 
-Test Case ID: ST-004
+# Test Case ID: ST-004
 
 
 Description: This test case verifies the functionality of generating time tracking reports in the application.
