@@ -328,7 +328,7 @@ This class diagram shows the attributes and methods of each class. For example, 
 
 Overall, this class diagram provides a high-level overview of the entities and relationships in the scheduling and time-tracking application for remote teams.
 
-![image](/classDiagram.png)
+![image](/Assignment/classDiagram.png)
 
 ## 2.5 Implementation Constrains
 
