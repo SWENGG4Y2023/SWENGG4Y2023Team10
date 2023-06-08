@@ -303,7 +303,7 @@ In this ER diagram, we have five entities: Employee, Team, Timesheet, Schedule, 
 
 Overall, this ER diagram provides a visual representation of the entities and their relationships in the scheduling and time-tracking application for remote teams.
 
-![image](/ERDiagram.png)
+![image](/Assignment/ERDiagram.png)
 
 
 **Class Diagram:**
