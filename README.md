@@ -1,6 +1,8 @@
 # SWENGG4Y2023Team10
 # Scheduling and Time-Tracking Application for Remote Teams
 
+<img  alt="TeamSync" src="https://teamsync.church/mt-content/uploads/2022/01/teamsync-logo-white.png">
+
 ## Team Members:
 | Team Members      | Student ID   |
 |-------------------|--------------|
@@ -9,8 +11,6 @@
 | :man: Aryan Saxena     | 2021hs70016 |
 | :man: Yash Kanoria     | 2021hs70002 |
 
-
-<img  alt="TeamSync" src="https://teamsync.church/mt-content/uploads/2022/01/teamsync-logo-white.png">
 
 ## Project Documents :clipboard::
 
