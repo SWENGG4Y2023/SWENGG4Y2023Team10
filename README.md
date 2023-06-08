@@ -17,12 +17,6 @@ Welcome to our Scheduling and Time-Tracking Application for Remote Teams project
 
 Feel free to explore the project documents linked above to gain more insights into our project.
 
-## Usage:
-Provide instructions on how to use your application. Include any setup steps, configuration requirements, or prerequisites. You can also provide examples or code snippets to demonstrate key functionalities.
-
-## Installation:
-Outline the steps required to install and set up your application. Include any dependencies or external libraries that need to be installed. You can provide both manual installation instructions and, if applicable, provide a link to an automated installation script or package manager.
-
 ## Contributing:
 If you would like to contribute to our project, please follow the guidelines below:
 - Fork the repository and clone it to your local machine.
