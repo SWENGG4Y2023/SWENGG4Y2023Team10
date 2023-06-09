@@ -29,12 +29,12 @@
 # 3. User Interface Design
 - The user interface design will be clean, intuitive, and responsive.
 - Key screens: Login, Dashboard, Schedule Creation, Time-Tracking, Reports.
-- Wireframes and mock-ups for each screen are provided in the [UI Design folder](/ui-design).
+- Wireframes and mock-ups.
 
 ## 4. Data Design
 - The application will use a relational database (e.g., PostgreSQL) to store data.
 - Database schema includes tables for users, schedules, time entries, and reports.
-- Entity-relationship diagram (ERD) is provided in the [Data Design folder](/data-design).
+- Entity-relationship diagram (ERD).
 
 # 5. Component Design
 - The application will be divided into the following major components:
@@ -62,7 +62,7 @@
 
 # 10. Testing and Quality Assurance
 - Comprehensive test suites will be developed to cover unit tests, integration tests, and end-to-end tests.
-- Test cases and test data will be documented and stored in the [Testing folder](/testing).
+- Test cases and test data will be documented.
 - Code reviews and continuous integration processes will be followed
 
  to ensure code quality and reliability.
@@ -72,8 +72,5 @@
 - Continuous deployment practices will be adopted to streamline the deployment process.
 - Monitoring tools will be used to track system performance, detect issues, and facilitate maintenance.
 
-# 12. Appendix
-- [UI Design folder](/ui-design): Contains wireframes and mock-ups of key screens.
-- [Data Design folder](/data-design): Includes the entity-relationship diagram (ERD) of the database.
-- [Testing folder](/testing): Contains test cases and test data.
+
 
