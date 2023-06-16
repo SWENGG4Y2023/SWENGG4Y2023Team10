@@ -1,0 +1,68 @@
+@startuml
+!define ICONURL https://raw.githubusercontent.com/PlantUML-Icons/PlantUML-Icons/master/dist
+
+!define CONTAINER_BORDER_COLOR #333333
+!define CONTAINER_BACKGROUND_COLOR #EFEFEF
+!define CONTAINER_TITLE_COLOR #666666
+
+!define COMPONENT_BORDER_COLOR #333333
+!define COMPONENT_BACKGROUND_COLOR #FFFFFF
+
+!define ARROW_COLOR #333333
+
+skinparam container {
+    BorderColor <<CONTAINER_BORDER_COLOR>>
+    BackgroundColor <<CONTAINER_BACKGROUND_COLOR>>
+    TitleBorderColor <<CONTAINER_BORDER_COLOR>>
+    TitleBackgroundColor <<CONTAINER_TITLE_COLOR>>
+}
+
+skinparam component {
+    BorderColor <<COMPONENT_BORDER_COLOR>>
+    BackgroundColor <<COMPONENT_BACKGROUND_COLOR>>
+}
+
+!define CONTAINER_WIDTH 400
+!define CONTAINER_HEIGHT 250
+
+package "Scheduling and Time Tracking Application" <<system>> {
+    package "Frontend" <<container>> {
+        rectangle "Web Application" as webapp {
+            component "User Interface" as ui
+            component "Authentication" as auth
+            component "Schedule Management" as schedule_mgmt
+            component "Time Tracking" as time_tracking
+
+            ui --> auth: Authenticates users
+            ui --> schedule_mgmt: Manages schedules
+            ui --> time_tracking: Tracks time
+        }
+    }
+
+    package "Backend" <<container>> {
+        rectangle "API Server" as api_server {
+            component "User Management" as user_mgmt
+            component "Schedule APIs" as schedule_apis
+            component "Time Tracking APIs" as time_apis
+
+            user_mgmt --> schedule_apis: Manages schedule data
+            user_mgmt --> time_apis: Manages time tracking data
+        }
+
+        database "Database" as database
+        api_server --> database: Stores data
+    }
+
+    package "External Systems" <<container>> {
+        rectangle "External System 1" as ext_system1
+        rectangle "External System 2" as ext_system2
+
+        webapp --> ext_system1: Imports/Exports data
+        webapp --> ext_system2: Integrates with
+    }
+}
+@enduml
+
+Link to Container Diagram - 
+
+//www.plantuml.com/plantuml/png/ZLFlJwD04FtENx7dVTPgxyU7nZJM5fLSBORI-B7PmaY9i93TuVHowVz-ouAJRczjkYOMXlVclNa3DmgvnAOil2yflEG2M30D5wjephQ8jHeD1fA_NMGvRfjDeq0cbK0GU95KvU2fu09NZ_FpG5VLuMt95O8SfBb2Zvhhtl4aMFZH-ZQCPlfd6ix3Y7tzPeuBDfd-ke_2rMBs0VNlsZy7D0xYkV-1-cdEll3ZKxZm5_5nOO8vXE_CyGWxYQBm-Q2FfrvpKNF9IzOcnJLEihyUq-UsaYd8QLLKabrVkuCOZpieJrupMJKYTS0jNqI9SopWH0d2EtJiD8coioShwqg0GFTa5E59axaJ9rd7df-3MVp0lbzUEfuz-C7zGyo6FouzhzPQF0Dsjaosa3P5BZB6HQf7Bu75KZzjAvEwBlA4Orw9Csr7_L48vNZSZqOzxgHvyTCMGvibM7ia9CX5LcZmCspilbonDzZmkZPuEdj9dgqKI1Pe3Vd24p2K9lyCF6bmgo_s-tDTSiCf062FNEXfIbqq7DNNrsLMucTaAov3GrrPOr_nB5wJi_FpiJ4pOdikGK-ZG2e7s7OnwZqgAhiujeLHPwypHkYTr_stzzY-WAUkSV8Ki2N8to2xXEjyhSpjyItQANU3Ky97rwC5bRqOhQbEMWnnJGWTpoAI2ygS1FxFdAKS-H4wQH3LbDZ7Hcp-ZfoO-eOh7UwilsezKvbmUrbhFNe-Oaki97G4vtxzTmGfUC6MvaDM9otwWCIkZ2bunxKoXQjJICC3qf2cxhzzCybUqn4Bz2ubge7_tlxIL4T8GqqI29aqdzHRZji-XPrt0o9jok8V

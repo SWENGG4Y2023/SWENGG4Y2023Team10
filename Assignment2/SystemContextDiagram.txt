@@ -1,0 +1,49 @@
+@startuml
+!define ICONURL https://raw.githubusercontent.com/PlantUML-Icons/PlantUML-Icons/master/dist
+
+!define SYSTEM_BORDER_COLOR #333333
+!define SYSTEM_BACKGROUND_COLOR #EFEFEF
+!define SYSTEM_TITLE_COLOR #666666
+
+!define ACTOR_BORDER_COLOR #333333
+!define ACTOR_BACKGROUND_COLOR #FFFFFF
+
+!define ARROW_COLOR #333333
+
+skinparam actor {
+    BorderColor <<ACTOR_BORDER_COLOR>>
+    BackgroundColor <<ACTOR_BACKGROUND_COLOR>>
+}
+
+skinparam system {
+    BorderColor <<SYSTEM_BORDER_COLOR>>
+    BackgroundColor <<SYSTEM_BACKGROUND_COLOR>>
+    TitleBorderColor <<SYSTEM_BORDER_COLOR>>
+    TitleBackgroundColor <<SYSTEM_TITLE_COLOR>>
+}
+
+!define SYSTEM_CONTEXT_WIDTH 500
+!define SYSTEM_CONTEXT_HEIGHT 300
+
+package "Scheduling and Time Tracking Application" <<system>> {
+    rectangle "Application" as app {
+        actor "User" as user
+        rectangle "Scheduler" as scheduler
+        rectangle "Time Tracker" as time_tracker
+
+        user --> app: Interacts with
+        app --> scheduler: Manages schedules
+        app --> time_tracker: Tracks time
+    }
+
+    rectangle "External System 1" as ext_system1
+    rectangle "External System 2" as ext_system2
+
+    app --> ext_system1: Imports/Exports data
+    app --> ext_system2: Integrates with
+}
+@enduml
+
+Link to SystemContextDiagram -
+
+//www.plantuml.com/plantuml/png/ZP9HRvim58NV_Ikyx3cbJRKzH1LgIcY3bfI9EEhsX3pm22eOP5_KJ5F--noR36Q2rfk7mFNdUmx7lfT01JHbWJwax6VE6Gwyy7aNhV4Ue9Ppnn7qxIhBOT_yQ2GJISM1SRXAgjBvMb0Ekyrw6gYkj5zBAe499yqbeB_3jz-tnD_43s6qzAFO2zTXX3_UwXem2-_BKnJkdfTdpdyy_MoE16Jjdv7FkZgzXKV2Q5okGuPgZxfwew8eVB5c8FcQyveAMcAQG2NmRuHLFLGYPSAh2jMvknjwS5s3qUGr4rN3Kmkrl2Zys9UIloImygBMCDzniP6SMvxaKB3t3ZVmKC4-8VCfzWcg2qVyRoH-2PPaXJzTNuy1ApzuMX5ygmXKApMQCJpP9dkMDaNECqnvggoK31EXLa-THLqNUK8Xh_X46JB9kMwRdM09K9uLQie_89MOrdKBgMeFTxAJJEZLHZteHMjAwwMbf7cxZ7O-MnfK8mRJGESTMWbFf-x9q1m779WYGEAt7FPdI9jLJ2SunnlALJgT1pc0-tfpuyIOqEGHsGdv1wNDQO6tvlhTQDVi0B59zUP_6sRMXXb2VJ-zIUf3oxeI81t_eFznIe6Eq3CJIoOei3QN8xfdF6tAuWy0
